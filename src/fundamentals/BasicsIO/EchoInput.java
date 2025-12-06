@@ -25,12 +25,9 @@ public class EchoInput{
 
         System.out.println("Is this information correct? (True/False)");
         confirm = scanner.nextBoolean();
-        
-        
 
-
-        
-
+        System.out.println("You have pressed: " + confirm + ". This information can be updated at anytime.");
+    
         scanner.close();
 
     }
