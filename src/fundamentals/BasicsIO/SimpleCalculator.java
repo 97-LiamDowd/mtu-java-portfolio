@@ -23,14 +23,9 @@ public class SimpleCalculator{
         System.out.print("Choose a number = ");
         num1 = scanner.nextInt();
 
-<<<<<<< HEAD
         //add = +, subtract = -, multiply = *, divide = /
         //prompting user input an operator
         System.out.print("Choose between " + add + " " + subtract + " " + multiply + " " + divide + " = ");
-=======
-        //add = +, subtract = -, multiply = *, divide = / 
-        System.out.print("Choose between " + add + ", " + subtract + ", " + multiply + ", " + divide + "");
->>>>>>> e99e7340654506e803445a91d8c7b30224a56016
         operator = scanner.next();
 
         //second user input
